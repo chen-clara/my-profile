@@ -1,0 +1,197 @@
+/* Global styles */
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header section styles */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* About Me section styles */
+.about-me {
+    background-color: #FFFFFF;
+    padding: 40px;
+}
+
+.about-me h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333333;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.about-me p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.skills {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    background-color: #F5F5F5;
+    color: #333333;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.skills li:hover {
+  background-color: #FEE9E1;
+}
+
+
+/* Experience section styles */
+.experience {
+    background-color: #F5F5F5;
+    padding: 40px;
+}
+
+.experience h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333333;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.job {
+    margin-bottom: 40px;
+}
+
+.job h3 {
+    font-size: 1.2rem;
+    color: #333333;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.job p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.job-rectangle {
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.social-media {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.social-icons a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.social-icons a i {
+  font-size: 30px;
+  color: #070606;
+}
+
+.social-icons a span {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #070606;
+}
+
+.social-icons a:hover i {
+  color: #43604A; 
+}
+
+
+/* Footer section styles */
+footer {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+footer a {
+    color: #FFFFFF;
+}
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    header img {
+        margin: 20px 0;
+    }
+    .skills li {
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+}
